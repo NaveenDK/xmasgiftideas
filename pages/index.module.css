@@ -26,6 +26,8 @@
   align-items: center;
   padding-top: 60px;
 }
+
+
 .main .icon {
   width: 34px;
 }
@@ -36,16 +38,23 @@
   color: #202123;
   margin: 16px 0 40px;
 }
+.main .loading{
+width: 50;
+}
+
 .main form {
   display: flex;
   flex-direction: column;
   width: 320px;
 }
-.main input[type="text"] {
+.main input[type="text"]
+.main input[type="number"]
+.main select {
   padding: 12px 16px;
   border: 1px solid #10a37f;
   border-radius: 4px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
+  margin-top:9px;
   outline-color: #10a37f;
 }
 .main ::placeholder {
